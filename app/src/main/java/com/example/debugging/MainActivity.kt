@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     fun division() {
         val numerator = 60
         var denominator = 4
-        repeat(4) {
+        repeat(5) {
             Log.v(TAG, "${numerator / denominator}")
             denominator--
         }
